@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Login_Page" path="/Login_Page" reloadable="true" source="org.eclipse.jst.jee.server:Login_Page"/><Context docBase="Practice" path="/Practice" reloadable="true" source="org.eclipse.jst.jee.server:Practice"/><Context docBase="WCD_sarvlet" path="/WCD_sarvlet" reloadable="true" source="org.eclipse.jst.jee.server:WCD_sarvlet"/><Context docBase="SessionDemo" path="/SessionDemo" reloadable="true" source="org.eclipse.jst.jee.server:SessionDemo"/><Context docBase="Servlet_JDBC1" path="/Servlet_JDBC1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_JDBC1"/></Host>
+      <Context docBase="Login_Page" path="/Login_Page" reloadable="true" source="org.eclipse.jst.jee.server:Login_Page"/><Context docBase="Practice" path="/Practice" reloadable="true" source="org.eclipse.jst.jee.server:Practice"/><Context docBase="WCD_sarvlet" path="/WCD_sarvlet" reloadable="true" source="org.eclipse.jst.jee.server:WCD_sarvlet"/><Context docBase="SessionDemo" path="/SessionDemo" reloadable="true" source="org.eclipse.jst.jee.server:SessionDemo"/><Context docBase="Servlet_JDBC1" path="/Servlet_JDBC1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_JDBC1"/><Context docBase="MVC_Pattern" path="/MVC_Pattern" reloadable="true" source="org.eclipse.jst.jee.server:MVC_Pattern"/><Context docBase="Plain_jsp" path="/Plain_jsp" reloadable="true" source="org.eclipse.jst.jee.server:Plain_jsp"/></Host>
     </Engine>
   </Service>
 </Server>
